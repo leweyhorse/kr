@@ -1,5 +1,5 @@
 How to run K&R 1-6 like they did.
-
+found these two examples on the internet
 
 I've created the program above called t.c and compiled it. I run it like this : $ cat t.c | ./a.out <RETURN> 
 
