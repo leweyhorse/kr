@@ -1,0 +1,8 @@
+How to run K&R 1-6 like they did.
+
+
+I've created the program above called t.c and compiled it. I run it like this : $ cat t.c | ./a.out <RETURN> 
+
+./example < example.c
+
+You are correct about the fact that the program does not open a file and it does not use arguments. The getchar() function operates on stdin. The program does not make much sense if you use it on the compiled file, so that is why I assumed it is supposed to be run with the source file. I see how the instructions are confusing.
